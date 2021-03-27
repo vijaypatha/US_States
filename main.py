@@ -15,7 +15,7 @@ while len(guessed_state) < 50:
     for state in data["state"]:
         if answer_state == "Exit":
             break
-            
+
         if answer_state == state:
             t = turtle.Turtle()
             t.hideturtle()
@@ -57,3 +57,5 @@ screen.exitonclick()
 # print(data_dict)
 # final2= pd.DataFrame(data_dict)
 # print(final2)
+
+
